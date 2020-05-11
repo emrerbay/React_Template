@@ -1,0 +1,19 @@
+// Here you can add other styles
+
+// Decrease padding right-left from 30px to 15px
+.main .container-fluid {
+    padding: 0 15px;
+  }
+// Decrease the gap from from 1.5rem to 1rem
+.breadcrumb {
+    margin-bottom: 1rem;
+  }
+// Prevent window position to get stuck in card div
+.card {
+    position: static;
+    margin-bottom: 1rem;
+  }
+// Prevent popup of dropdown, datetime picker, notification etc... stay under the window
+.k-animation-container, .k-notification-group {
+    z-index: 10003 !important;
+  }
