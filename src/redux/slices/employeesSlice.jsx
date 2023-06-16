@@ -98,6 +98,7 @@ export const {
 
 export default employees.reducer
 
+
 export const getTotalEmployee = () => async (dispatch) => {
   try {
     const response = await getTotalEmployeeRequest()
